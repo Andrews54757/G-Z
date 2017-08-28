@@ -10,7 +10,7 @@
   
   if(!emacheck()) return alert("Sigh.. Please update your browser please!. I'm begging you.");
 
-  var canvas = getElementsByClassName('game')[0];
+  var canvas = doc.getElementsByClassName('game')[0];
   if(!canvas) return console.log("Failed to find canvas");
   
   var gz = new pc.Application(canvas, {});
